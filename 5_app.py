@@ -7,7 +7,7 @@ import numpy as np
 # Load the YOLO model
 @st.cache_resource
 def load_model():
-    model = YOLO("E:/Sem 5/ML project/5_emotion.pt")  # Load the YOLO model
+    model = YOLO("5_emotion.pt")  # Load the YOLO model
     return model
 
 model = load_model()
